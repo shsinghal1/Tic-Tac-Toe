@@ -1,0 +1,54 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;600&display=swap'); */
+*{
+    box-sizing: border-box;
+}
+
+body{
+    font-family: "Arial", sans-serif;
+    margin: 0;
+    background-color: black;
+}
+h1{
+    font-size: 48px;
+    color: yellowgreen;
+}
+
+h2{
+    color: yellowgreen;
+    font-size: 34px;
+}
+
+section{
+    text-align: center;
+}
+.grid-container{
+    display: grid;
+    grid-template-columns: repeat(3,auto);
+    width: 640px;
+    margin: 50px auto;
+}
+
+.grid-item{
+    font-family: "Permanent Marker", cursive;
+    border: 1px solid black;
+    box-shadow: 2px 4px 2px 6px teal;
+    width: 210px;
+    height: 210px;
+    cursor: pointer;
+    line-height: 100px;
+    font-size: 120px;
+    font-weight: 300;
+    color: yellowgreen;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    
+
+}
+
+.restart{
+    font-size: 34px;
+    color: yellowgreen;
+    border: 5px solid teal;
+    background-color: black;
+}
